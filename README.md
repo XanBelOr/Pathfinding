@@ -47,3 +47,4 @@ execute at @a[limit=1,sort=nearest] run function pathfinding:queue_path
 
 Reminder: call the load function `function pathfinding:zzinternal/load` in your own load function.
 
+Please DM "xanbelor" on discord for support, discussion, suggestions, or to report bugs.
