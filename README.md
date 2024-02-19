@@ -47,4 +47,6 @@ execute at @a[limit=1,sort=nearest] run function pathfinding:queue_path
 
 Reminder: call the load function `function pathfinding:zzinternal/load` in your own load function.
 
+This datapack makes use of the [Iris](https://github.com/Aeldrion/Iris) and [gu](https://github.com/gibbsly/gu) libraries. They are built in to the datapack and should not interfere with other instances of them.
+
 Please DM "xanbelor" on discord for support, discussion, suggestions, or to report bugs.
