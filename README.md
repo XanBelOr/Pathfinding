@@ -9,7 +9,7 @@ This Pathfinding Datapack introduces an innovative and customizable solution for
 ## Features
 - **Performance-Optimized Queue System:** Implements a queue system for pathfinding tasks, processing one path at a time to significantly reduce lag.
 - **Duplicate Request Prevention:** Prevents entities from being queued multiple times for pathfinding until their current path is resolved. Active paths can be updated for dynamic routing.
-- **Configurable Pathfinding Parameters:** Offers extensive customization options, including entity height, maximum fall distance, step height, entity speed, cycles per tick, and maximum cycles for a path, the last two adjustable in the datapack's configuration file.
+- **Configurable Pathfinding Parameters:** Offers extensive customization options, including entity height, maximum fall distance, step height, entity speed, cycles per tick, maximum cycles for a path, and pathfinding cooldown, the last three adjustable in the datapack's configuration file.
 - **Adaptive Pathfinding with Failure Handling:** If the target is unreachable within the specified node search limit, the system will attempt to navigate to the next best node. The process aborts if no suitable nodes are found.
 - **Dynamic Obstruction Detection:** Continually checks for obstructions along the solved path while the entity is in motion, allowing for real-time path adjustments.
 - **Easy Initial Setup:** Users must remember to initialize the system by calling the load function `function pathfinding:zzinternal/load` to ensure proper functionality.
@@ -21,6 +21,7 @@ This Pathfinding Datapack introduces an innovative and customizable solution for
 4. **Entity Speed:** Controls the speed at which the entity moves, in blocks per tick.
 5. **Cycles per Tick:** Sets how many pathfinding searches are performed per tick, balancing between performance and responsiveness.
 6. **Max Cycles for a Path:** Limits the total number of searches for a path, directing the entity towards the best available node if the target is not found within this limit.
+7. **PAthfinding Cooldown:** Optional setting to limit how often you want an entity to be able to pathfind. Doesn't prevent paths if the entity does not have a path.
 
 ## Usage Instructions
 To effectively use this datapack, follow these steps to configure and initiate pathfinding for an entity:
