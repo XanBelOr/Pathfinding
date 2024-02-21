@@ -21,7 +21,7 @@ This Pathfinding Datapack introduces an innovative and customizable solution for
 4. **Entity Speed:** Controls the speed at which the entity moves, in blocks per tick.
 5. **Cycles per Tick:** Sets how many pathfinding searches are performed per tick, balancing between performance and responsiveness.
 6. **Max Cycles for a Path:** Limits the total number of searches for a path, directing the entity towards the best available node if the target is not found within this limit.
-7. **PAthfinding Cooldown:** Optional setting to limit how often you want an entity to be able to pathfind. Doesn't prevent paths if the entity does not have a path.
+7. **Pathfinding Cooldown:** Optional setting to limit how often you want an entity to be able to pathfind. Doesn't prevent paths if the entity does not have a path.
 
 ## Usage Instructions
 To effectively use this datapack, follow these steps to configure and initiate pathfinding for an entity:
